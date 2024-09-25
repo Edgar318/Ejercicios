@@ -16,15 +16,24 @@ public class Ejercicios {
 
         System.out.println("Hola " + nombre + " Bienvenido a " + curso);
 
-        System.out.println("Introduce un numero....");
-        int num1 = entrada.nextInt();
+        int num1 = 0;
+        int num2 = 0;
 
-        System.out.println("Introduce otro numero....");
-        int num2 = entrada.nextInt();
+        while (num1==num2){
+            System.out.println("Introduce un numero....");
+             num1 = entrada.nextInt();
 
-        int resultado = num1 + num2;
+            System.out.println("Introduce otro numero....");
+            num2 = entrada.nextInt();
+           if (num1==num2){
+               System.out.println("Error. los numeros son iguales. ");
+           }
 
-        System.out.println("El resultado de la suma es: " + resultado );
+        }
+
+
+            int resultado = num1 + num2;
+            System.out.println("El resultado de la suma es: " + resultado);
 
     }
 }
