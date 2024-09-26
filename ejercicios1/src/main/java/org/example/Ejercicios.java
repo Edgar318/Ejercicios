@@ -36,6 +36,14 @@ public class Ejercicios {
             System.out.println("El resultado de la suma es: " + resultado);
 
     }
+
+    public void ejercicio1 (){
+        System.out("Dime un numero:")
+        Scanner entrada = new Scanner(System.in)
+        String num1 = entrada.next()
+                
+    }
+
 }
 
 
